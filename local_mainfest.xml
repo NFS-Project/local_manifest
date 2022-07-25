@@ -5,13 +5,8 @@
   <remote name="NFS"
           fetch="https://github.com/NFS-projects" />
 
-  <remote name="baunilla"
-          fetch="https://github.com/baunilla" />
-
-
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
-
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
