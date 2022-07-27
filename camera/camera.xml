@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- CameraGo -->
-  <project path="packages/apps/CameraGo" name="packages_apps_CameraGo" remote="PROJECTS" clone-depth="1" revision="main" />
+  <!-- GrapheneCamera -->
+  <project path="packages/apps/GrapheneCamera" name="GrapheneOS_Camera" remote="NFS" clone-depth="1" revision="master" />
 
 </manifest>
