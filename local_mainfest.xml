@@ -11,7 +11,7 @@
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
-  <!--- GrapheneCamera --->
+  <!-- GrapheneCamera --->
   <project path="packages/apps/GrapheneCamera" name="GrapheneOS_Camera" remote="NFS" clone-depth="1" revision="master" />
 
 </manifest>
