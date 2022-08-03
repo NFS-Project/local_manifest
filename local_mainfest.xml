@@ -3,7 +3,7 @@
 
   <!-- Remote -->
   <remote name="NFS"
-          fetch="https://github.com/NFS-projects" />
+          fetch="https://github.com/NFS-project" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
