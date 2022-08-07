@@ -4,9 +4,6 @@
   <!-- Remote -->
   <remote name="NFS"
           fetch="https://github.com/NFS-project" />
-  <remote  name="los19.1"
-           fetch="https://github.com/LineageOS"
-           revision="lineage-19.1" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
