@@ -13,5 +13,5 @@
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
-
+  <remove-project name="LineageOS/android_hardware_qcom_sm7250_display" />
 </manifest>
