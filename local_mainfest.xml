@@ -2,6 +2,9 @@
 <manifest>
 
   <!-- Remote -->
+  <remote name="NFS"
+          fetch="https://github.com/NFS-project" />
+
   <remote name="baunilla"
           fetch="https://github.com/baunilla" />
 
