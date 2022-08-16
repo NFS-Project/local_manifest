@@ -4,6 +4,8 @@
   <!-- Remote -->
   <remote name="NFS"
           fetch="https://github.com/NFS-project" />
+  <remote name="NFShub"
+          fetch="https://github.com/" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
@@ -15,8 +17,8 @@
   <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
   <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
   <!-- Hals CAF Tree -->
-  <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-19.1-caf-msm8953" remote="a3hub" />
-  <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-19.1-caf-msm8953" remote="a3hub" />
-  <project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-19.1-caf-msm8953" remote="a3hub" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-19.1-caf-msm8953" remote="NFShub" />
+  <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-19.1-caf-msm8953" remote="NFShub" />
+  <project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-19.1-caf-msm8953" remote="NFShub" />
 
 </manifest>
