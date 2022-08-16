@@ -14,6 +14,8 @@
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="arrow-12" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
   <!-- Add guards for CAF repositories -->
+  <remove-project name="android_vendor_arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="NFS" />
   <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
   <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
   <!-- Hals CAF Tree -->
