@@ -5,10 +5,12 @@
         <remote name="c3eru" fetch="https://github.com/c3eru" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="greenforce-project" fetch="https://github.com/greenforce-project" />
-        <remote  name="mobx-lab" fetch="https://gitlab.com/mobxCode" revision="refs/heads/lineage-19.1" />
+        <remote name="mobx-lab" fetch="https://gitlab.com/mobxCode" revision="refs/heads/lineage-19.1" />
+        <remote name="NFS" fetch="https://github.com/NFS-project" />
+
         
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="c3eru" revision="lineage-19.1" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="NFS" revision="lineage-19.1" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" clone-depth="1" remote="mobx-lab" />
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="c3eru" revision="main" clone-depth="1" />
         
