@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="c3eru" fetch="https://github.com/c3eru" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="greenforce-project" fetch="https://github.com/greenforce-project" />
+        <remote  name="mobx-lab" fetch="https://gitlab.com/mobxCode" revision="refs/heads/lineage-19.1" />
+        
+        <!-- Trees -->
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="c3eru" revision="lineage-19.1" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" clone-depth="1" remote="mobx-lab" />
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="c3eru" revision="main" clone-depth="1" />
+        
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n " revision="master" clone-depth="1" />
+ 
+</manifest>
