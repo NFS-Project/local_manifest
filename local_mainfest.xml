@@ -10,7 +10,7 @@
           fetch="https://gitlab.com/LeCmnGend" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="GTlab" clone-depth="1" revision="clang-15" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="GTlab" clone-depth="1" revision="clang-14" />
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="lineage-19.1" />
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="arrow-12" />
