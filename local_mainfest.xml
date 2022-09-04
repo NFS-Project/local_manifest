@@ -11,6 +11,7 @@
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="NFS" clone-depth="1" revision="ten" />
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="NFS" clone-depth="1" revision="ten" />
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="NFS" clone-depth="1" revision="ten" />
-  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="NFS" clone-depth="1" revision="ten" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="NFS" clone-depth="1" revision="whyred-ten" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="NFS" clone-depth="1" revision="sdm660-ten" />
 
 </manifest>
