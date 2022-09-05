@@ -5,18 +5,9 @@
   <remote name="NFS"
           fetch="https://github.com/NFS-project" />
 
-  <remote  name="xd-gitlab"
-           fetch="https://gitlab.com/xdroid-oss"
-           revision="thirteen" />
-
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13" />
-  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13" />
+  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="twelve" />
-
-  <remove-project name="vendor_gapps" />
-  <remove-project name="vendor_aosp" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="NFS" revision="Tiramisu" />
-  <project path="vendor/gms" name="xd_vendor_gms" remote="xd-gitlab" clone-depth="1" />
 
 </manifest>
