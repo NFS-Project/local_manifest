@@ -12,11 +12,11 @@
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
-
+  <!--
   <remove-project name="android_system_libhidl" />
   <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
-
-  <remove-project name="android_hardware_interfaces" />
+  -->
+  <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="arrow-13.0" />
 
 </manifest>
