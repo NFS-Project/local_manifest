@@ -19,4 +19,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="arrow-13.0" />
 
+  <remove-project name="xd_vendor_xdroidui" />
+  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="NFS" revision="thirteen" />
+
 </manifest>
