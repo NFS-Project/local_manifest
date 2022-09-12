@@ -5,9 +5,9 @@
   <remote name="NFS"
           fetch="https://github.com/NFS-project" />
 
-  <remote  name="gitlabhub"
-           fetch="https://gitlab.com/AnggaR96s"
-           revision="main" />
+  <remote name="gitlabhub"
+          fetch="https://gitlab.com/AnggaR96s"
+          revision="main" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
