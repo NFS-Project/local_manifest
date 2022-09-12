@@ -5,13 +5,17 @@
   <remote name="NFS"
           fetch="https://github.com/NFS-project" />
 
+  <remote  name="gitlabhub"
+           fetch="https://gitlab.com/AnggaR96s"
+           revision="main" />
+
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
   <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="NFS" clone-depth="1" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="clang-gengkapak" remote="gitlabhub" clone-depth="1"/>
   <!--
   <remove-project name="android_system_libhidl" />
   <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
