@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <!-- GrapheneCamera -->
-  <project path="packages/apps/GrapheneCamera" name="GrapheneOS_Camera" remote="NFS" clone-depth="1" revision="master" />
-
-</manifest>
