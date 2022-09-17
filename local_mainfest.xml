@@ -26,4 +26,6 @@
   <remove-project name="xd_vendor_xdroidui" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="NFS" revision="thirteen" />
 
+  <remove-project name="xd_system_vold" />
+  <project path="system/vold" name="android_system_vold" remote="NFS" revision="thirteen" />
 </manifest>
