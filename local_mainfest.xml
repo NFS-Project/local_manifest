@@ -10,7 +10,7 @@
           revision="master" />
 
   <remote name="silicon"
-	 fetch="https://github.com/AOSP-Silicon" />
+	  fetch="https://github.com/AOSP-Silicon" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
@@ -32,12 +32,15 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- hardware/interfaces -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
+  <!-- vendor/xdroidui -->
   <remove-project name="xd_vendor_xdroidui" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="NFS" revision="thirteen" />
 
+  <!-- system/vold -->
   <remove-project name="xd_system_vold" />
   <project path="system/vold" name="android_system_vold" remote="NFS" revision="thirteen" />
 
@@ -55,4 +58,5 @@
  <!-- wlan (qcom-caf) -->
  <remove-project name="xd_hardware_qcom-caf_wlan" />
  <project path="hardware/qcom-caf/wlan" name="ArrowOS/android_hardware_qcom_wlan" remote="github" revision="arrow-13.0-caf" />
+
 </manifest>
