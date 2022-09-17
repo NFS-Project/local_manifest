@@ -46,7 +46,7 @@
 
   <!-- Framework/native -->
   <remove-project name="xd_frameworks_native" />
-  <project path="frameworks/native" name="xd_frameworks_native" remote="silicon" revision="thirteen" clone-depth="1" />
+  <project path="frameworks/native" name="xd_frameworks_native" remote="NFS" revision="thirteen" clone-depth="1" />
 
   <!-- framwork/opt telephony -->
   <remove-project name="platform/frameworks/opt/telephony" />
