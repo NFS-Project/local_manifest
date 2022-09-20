@@ -12,18 +12,18 @@
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
-  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="arrow-13" />
+  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" clone-depth="1" revision="evox-13" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" clone-depth="1" revision="13.0" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/>
 
   <!-- hardware/interfaces -->
-  <remove-project name="android_hardware_interfaces" />
+  <remove-project name="hardware_interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
   <!-- system/libhidl -->
-  <remove-project name="android_system_libhidl" />
+  <remove-project name="system_libhidl" />
   <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
 
 </manifest>
