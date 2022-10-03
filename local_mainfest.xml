@@ -29,4 +29,7 @@
   <!-- libbfqio -->
   <project path="device/xiaomi/rosy/libbfqio" name="android_system_libbfqio" remote="NFS" clone-depth="1" revision="master" />
 
+  <!-- misc -->
+  <remove-project name="android_hardware_lineage_compat" />
+
 </manifest>
