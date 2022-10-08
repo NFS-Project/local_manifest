@@ -3,7 +3,7 @@
 
   <!-- Remote -->
   <remote name="NFS"
-          fetch="https://github.com/NFS-project" />
+          fetch="https://NFS86:$NFS_TOKEN@github.com/NFS-Project" />
 
   <remote name="NFSclang"
           fetch="https://pf.osdn.net/gitroot/n/nf/nfs86/"
