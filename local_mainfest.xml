@@ -22,6 +22,6 @@
 
   <!-- Hardware Xiaomi -->
   <remove-project name="android_hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="NFS" revision="12" />
 
 </manifest>
