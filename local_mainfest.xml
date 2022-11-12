@@ -15,6 +15,10 @@
           fetch="https://github.com/anandhan07/"
           clone-depth="1" />
 
+  <remote name="PE"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"
+          clone-depth="1" />
 
   <!-- Remove Projects -->
   <remove-project name="device_qcom_sepolicy-legacy-um" />
@@ -37,5 +41,8 @@
 
   <!-- system/libhidl -->
   <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
+
+  <!-- external/tinyxml -->
+  <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
 
 </manifest>
