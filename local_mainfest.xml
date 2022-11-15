@@ -33,9 +33,9 @@
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" />
 
-  <!-- Sepolicy -->
+  <!-- Sepolicy
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="anandhan07" revision="spark-13.0" />
-
+  -->
   <!-- hardware/interfaces -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
