@@ -32,6 +32,12 @@
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="NFS" revision="spark-13.0" />
 
+  <!-- hardware/interfaces -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
+
+  <!-- system/libhidl -->
+  <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
+
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
 
