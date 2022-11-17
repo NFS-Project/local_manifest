@@ -41,4 +41,6 @@
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
 
+  <!-- data-ipa-cfg-mgr-legacy-um -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" remote="lineage" />
 </manifest>
