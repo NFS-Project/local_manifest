@@ -22,7 +22,6 @@
 
   <!-- Remove Projects -->
   <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <remove-project name="system_libhidl" />
   <remove-project name="hardware_interfaces" />
 
   <!-- Device Tree -->
@@ -38,9 +37,6 @@
 
   <!-- hardware/interfaces -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
-
-  <!-- system/libhidl -->
-  <project path="system/libhidl" name="android_system_libhidl" remote="NFS" revision="arrow-13.0" />
 
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
