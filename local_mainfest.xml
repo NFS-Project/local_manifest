@@ -4,6 +4,7 @@
   <!-- Remote -->
   <remote name="NFS"
           fetch="https://github.com/NFS-project"
+          revision="thirteen"
           clone-depth="1" />
 
   <remote name="NFSclang"
@@ -25,9 +26,9 @@
   <remove-project name="hardware_interfaces" />
 
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="NFS" revision="Test" />
-  <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="thirteen" />
-  <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="thirteen" />
+  <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="NFS" />
+  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS" />
+  <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="NFS" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" />
