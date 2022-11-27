@@ -23,7 +23,6 @@
 
   <!-- Remove Projects -->
   <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <remove-project name="hardware_interfaces" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="NFS" />
@@ -35,9 +34,6 @@
 
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="anandhan07" revision="spark-13.0" />
-
-  <!-- hardware/interfaces -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
