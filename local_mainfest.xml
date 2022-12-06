@@ -39,7 +39,7 @@
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
 
-  <!-- Services repos -->
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="anandhan07" revision="pyro" />
+  <!-- hardware/interfaces -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
 </manifest>
