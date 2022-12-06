@@ -23,7 +23,6 @@
 
   <!-- Remove Projects -->
   <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <remove-project name="packages_services_Telephony" />
   <remove-project name="hardware_interfaces" />
 
   <!-- Device Tree -->
@@ -39,9 +38,6 @@
 
   <!-- external/tinyxml -->
   <project path="external/tinyxml" name="external_tinyxml" remote="PE" />
-
-  <!-- hardware/interfaces -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
   <!-- Services repos -->
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="anandhan07" revision="pyro" />
