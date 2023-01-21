@@ -24,6 +24,7 @@
   <!-- Remove Projects -->
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <remove-project name="hardware_interfaces" />
+  <remove-project name="frameworks_native" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="NFS" />
@@ -42,4 +43,6 @@
   <!-- hardware/interfaces -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
+  <!-- frameworks/native -->
+  <project path="frameworks/native" name="frameworks_native" remote="NFS" revision="pyro" />
 </manifest>
